@@ -1,6 +1,6 @@
 <h1 align="center">Team Profile Generator 📕</h1>
   
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
+
 ## Description
 🔍 Use this Team Profile Generator to design a profile for your very own team!
 ## Table of Contents
