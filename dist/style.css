@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar {
+    background-color: rgb(35, 141, 106);
+    color: blanchedalmond;
+    font-size: 45px;
+}
+.navbar-brand {
+    font-size: 45px;
+}
+.card-header{
+    background-color: rgb(127, 193, 255);
+    color: blanchedalmond;
+}
+.card-body {
+    background-color: rgb(127, 204, 255);
+    color: blanchedalmond;
+}
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+}
