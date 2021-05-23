@@ -1,3 +1,4 @@
+// using Employee constructor// 
 const Engineer = require('../lib/Engineer');
 
 // sets up the Engineer object//
@@ -7,7 +8,7 @@ test('creates an Engineer object', () => {
     expect(engineer.github).toEqual(expect.any(String));
 });
 
-// source of Engineer github username// 
+// gets GitHub username from getGitHub() //
 test('sets engineer github username', () => {
     const engineer = new Engineer('Amber', 6148880, 'amber.pratt@aexp.com', 'apratt7891');
 
