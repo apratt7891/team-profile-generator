@@ -3,7 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 // link to generateHTML for index.html//
-const generateHTML = require('./src/generateHTML');
+const generateHTML= require('./src/generateHTML');
 
 // link team profiles//
 const Manager = require('./lib/Manager');
