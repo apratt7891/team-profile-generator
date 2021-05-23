@@ -56,7 +56,7 @@ const generateIntern = function (intern) {
 };
 
 generatePage = (data) => {
-    pageArray = [];
+    cardArray = [];
 
     for (let i = 0; i < data.length; i++) {
         const employee = data[i];
@@ -80,7 +80,7 @@ generatePage = (data) => {
             cardArray.push(generateIntern);
         }
     }
-
+    const teamCards = cardArray.join('')
     const createTeam = createTeamPage(teamCards);
     return createTeam;
 }
