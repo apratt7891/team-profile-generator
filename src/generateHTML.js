@@ -1,4 +1,4 @@
-// create Manager card
+// manager card//
 const generateManager = function (manager) {
     return `
     <div class="col-4 mt-4">
@@ -17,7 +17,7 @@ const generateManager = function (manager) {
     `;
 }
 
-// create Engineer card
+// engineer card//
 const generateEngineer = function (engineer) {
     return `
     <div class="col-4 mt-4">
@@ -36,7 +36,7 @@ const generateEngineer = function (engineer) {
     `
 }
 
-// create Intern card 
+// intern card//
 const generateIntern = function (intern) {
     return `
     <div class="col-4 mt-4">
@@ -55,10 +55,10 @@ const generateIntern = function (intern) {
     `
 };
 
-// push array to page 
+// push array to card//
 generateHTML = (data) => {
 
-    // array for cards 
+  
     pageArray = []; 
 
     for (let i = 0; i < data.length; i++) {
@@ -67,21 +67,21 @@ generateHTML = (data) => {
         
 
 
-        // call manager function
+      
         if (role === 'Manager') {
             const managerCard = generateManager(employee);
 
             pageArray.push(managerCard);
         }
 
-        // call engineer function
+        
         if (role === 'Engineer') {
             const engineerCard = generateEngineer(employee);
 
             pageArray.push(engineerCard);
         }
 
-        // call intern function 
+      
         if (role === 'Intern') {
             const internCard = generateIntern(employee);
 
@@ -90,16 +90,16 @@ generateHTML = (data) => {
         
     }
 
-    // joining strings 
+    // joins strings //
     const employeeCards = pageArray.join('')
 
-    // return to generated page
+
     const generateTeam = generateTeamPage(employeeCards); 
     return generateTeam;
 
 }
 
-// generate html page 
+// function to generate index.html page//
 const generateTeamPage = function (employeeCards) {   
   return`
   <!DOCTYPE html>
@@ -137,5 +137,5 @@ const generateTeamPage = function (employeeCards) {
 `;
 }
 
-// export to index
+
 module.exports = generateHTML; 
