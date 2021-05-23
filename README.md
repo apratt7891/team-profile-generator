@@ -30,4 +30,4 @@ Jest
 :octocat: Find me on GitHub: [apratt7891](https://github.com/apratt7891)<br />
 <br />
 ✉️ Email me with any questions: apratt7891@gmail.com<br /><br />
-_This README was generated with ❤️ by [README-generator](https://apratt7891.github.io/README/) 👩‍💻
+_This README was generated with ❤️ by Amber 👩‍💻
